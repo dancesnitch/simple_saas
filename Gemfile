@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.8'
+gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
 
@@ -47,6 +47,12 @@ gem 'stripe', '1.16.1'
 
 # Use figaro to hide secret keys
 gem 'figaro', '1.0.0'
+
+# Added to gem to remove error 'Expected string default value for '--rc'; got false (boolean)'
+gem 'thor', '0.19.1'
+
+# Use paperclip for image uploads
+gem 'paperclip', '5.0.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '3.1.7'
